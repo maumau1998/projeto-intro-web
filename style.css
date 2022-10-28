@@ -1,0 +1,589 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Helvetica;
+}
+/*        header e body           */
+
+body{
+    background-color: rgb(30, 29, 29);
+}
+.desligar{
+    display: flex;
+}
+#lampada2{
+    display: none;
+}
+.lampada{
+    width: 30px;
+    height: 30px;
+    margin-top: 40px;
+    margin-left: 20px;
+    background-color: white;
+    border-radius: 50%;
+    cursor: pointer;
+    border: 1px solid black;
+    position: fixed;
+     
+}
+.lampada:hover{
+    background-color: yellow;
+}
+#btn-entrar{
+    background-color: aqua;
+    display: none;
+}
+#btn-entrar:hover{
+    color: gray;
+    background-color: white;
+    cursor: none;
+}
+.mobileMenu{
+    display: none;
+}
+header{
+    display:flex;
+    display: grid;
+    grid-template-columns:1fr 1fr;
+    background-color: black;
+    padding: 24px 40px;
+    height: 90px;
+    max-height: 90px;
+    position: sticky;
+    top: 0;
+    border-bottom: 2px solid white;
+}
+#h1Titulo{
+    display: flex;
+    align-items: center;
+    
+}
+#EntrarCadatro{
+    display: flex;
+    justify-content: flex-end;
+}
+header a{
+    font-weight: bold;
+    color: white;
+}
+.form ul li:hover .nav02{
+    display: block;
+    width: 150px;
+}
+.form ul li:hover .nav02 a{
+    color:black;
+}
+header .nav02 li:hover{
+    transform: scale(1.25);
+    border-bottom: 1px solid black ;
+    padding-bottom: 0;
+}
+
+/*/////////////////////////*/
+
+header h1{
+    width: 100%;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+.form{
+    color: white;
+}
+.form ul{
+    display: flex;
+    text-align: left;
+}
+.form ul .li1{
+    text-align: center;
+    width: 110px;
+    cursor: pointer;
+}
+.form ul .li2{
+    text-align: center;
+    width: 110px;
+    cursor: pointer;
+}
+.form ul .li3{
+    text-align: center;
+    width: 110px;
+    cursor: pointer;
+}
+.form ul .li4{
+    text-align: center;
+    width: 110px;
+    cursor: pointer;
+}
+.form ul .li5{
+    text-align: center;
+    width: 110px;
+    cursor: pointer;
+}
+.form2{
+    border: 1px solid gray;
+    height: 100%;
+    width: 500px;
+    padding: 20px;
+    margin-top: 50px;
+    margin: 0 auto;
+    margin-top: 50px;
+    display: none; 
+   
+}
+
+main{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    padding: 50px;
+}
+.navegar{
+    margin-bottom: 30px;
+    display: none;
+}
+button{
+    font-weight: bold;
+    font-size: 16px;
+    padding: 10px 25px;
+    border: 1px solid grey;
+    border-radius: 4px;
+    cursor: pointer;
+    color: grey;
+}
+button:hover{
+    background-color: black;
+    color: white;
+}
+input{
+    padding: 11px 120px ;
+}
+.section1, .section2, .section3, .section4{
+    margin: 0 auto;
+    width: 500px;
+    height: 200px;
+    background-color: grey;
+    margin-top: 20px;
+    padding: 25px;
+    display: flex;
+    
+}
+.cantor{
+    width: 150px;
+    height: 150px;
+    background-color: grey;
+    border-radius: 50%;
+}
+.lista, .lista2, .lista3,.lista4{
+    width: 150px;
+    margin-left: 150px;
+}
+ul{
+    list-style-type: none;
+}
+ul li{
+    padding: 10px 0;
+}
+ul li a{
+    text-decoration: none;
+    color: white;
+}
+footer{
+    font-family: Helvetica;
+    width: 100%;
+    background-color:black;
+    color: white;
+    font-size: 15px;
+    padding: 20px;
+    text-align: center;
+    font-weight: bold;
+}
+         /* icones de redes sociais */
+img{
+    width: 21px;
+    height: 21px;
+    margin-top: 20px;
+    margin-left: 8px;
+}
+img:hover{
+    transform: scale(1.5);
+}
+/*////////////////////////////       Tabela      ////////////////////////*/
+.table1{
+    width: 100%;
+    
+}
+#buttonResetarTabela{
+    margin-bottom: 20px;
+}
+.table1 th{
+    border: 2px solid gray;
+    background-color: orange;
+    padding: 20px 0;
+    color: white;
+} 
+
+.table1 td{
+    border: 2px solid gray;
+    background-color: white;
+    padding: 19px 5px;
+    font-weight: bold;
+}
+audio{
+    width: 100%;
+    display: none;
+}
+.microfone{
+    font-size: 30px;
+    cursor: pointer;
+}
+.microfone:hover{
+    transform: scale(1.25);
+}
+#a1-jorge{
+    width: 60%;
+}
+/*/////////////////////////////////////////////   cadastro  ////////////////////*/
+.lista{
+    display: none;
+}
+.lista2{
+    display: none;
+}
+.lista3{
+    display: none;
+}
+.lista4{
+    display: none;
+}
+#iframe{
+    display: none;
+}
+#iframe2{
+    display: none;
+}
+#iframe3{
+    display: none;
+}
+#iframe4{
+    display: none;
+}
+.cadastro{
+    text-align: center;
+    padding-bottom: 14px;
+    color: rgb(223, 8, 8);
+    
+}
+.cadastro2{
+    text-align: center;
+    padding-bottom: 14px;
+    color: rgb(223, 8, 8);
+    display: none;
+}
+#cadastro-section{
+    width: 410px;
+    height: 80vh;
+    min-height: 660px;
+    background-color: white;
+    margin: 0 auto;
+    padding: 70px 25px;
+    color: darkslategray;
+    border-radius: 20px;
+    border: 1px solid black;
+    text-align: left;
+}
+#cadastro ul{
+    display: inline;
+    font-size: 22px;
+}
+#cadastro-section h1{
+    padding-bottom: 30px;
+    text-align: center;
+    font-size: 25px;
+    margin-bottom: 10px;
+} 
+#e-mail{
+    background-color: lightblue ;
+    border: none;
+    padding: 12px 10px;
+    width: 100%;
+    border-radius: 3px;
+    margin: 20px 0;
+}
+.label1{
+    font-size: 15px;
+    
+}
+#confirme-email{
+    background-color: lightblue ;
+    border: none;
+    padding: 12px 10px;
+    width: 100%;
+    border-radius: 3px;
+    margin: 20px 0;
+}
+
+/*     ok       */
+#termo{
+    display: flex;
+    font-size: 16px;
+    height: 40px;
+    margin-top: 15px;
+}
+#termo p{
+    margin-left: 10px;
+}
+#termo a{
+    text-decoration: none;
+    color: rgb(255, 128, 0);
+    font-weight: bold;
+}
+.a1:hover{
+    border-bottom: 1px solid rgb(255, 128, 0);
+}
+.a2:hover{
+    border-bottom: 1px solid rgb(255, 128, 0);
+}
+#botao{
+    padding: 10px 10px;
+    width: 100%;
+    border-radius: 3px;
+    margin: 25px 0;
+    background-color: rgb(255, 128, 0);
+    color: white;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+}
+#botao:hover{
+    background-color: orangered;
+}
+
+#main1{
+    display: block;
+}
+#main2{
+    display: none;
+}
+#botao-sair{
+    margin-left: 20px;
+    padding: 5px;
+    background-color: gray;
+    color: white;
+}
+
+/*///////////////////////////////////  MEDIA QUERY, SE MEXER JÁ ERA //////////////////////////////////////*/
+
+@media screen and (max-device-width: 1090px){
+    .form li{
+      display: none;
+    }
+    .mobileMenu{
+        display: block;
+    }
+    .form #btn-cadastro{
+        padding: 5px 12px;
+        margin-left: 15%;
+
+    }
+    header {
+        text-align: center;
+    }
+    header h1{
+        text-align: left;
+    }
+    #menu-mobile{
+        display: block;
+        
+    }
+}
+@media screen and (max-device-width: 895px){
+    #p-msg{
+        font-size: 14px;
+        display: block;
+    }
+    #cadastro{
+        font-size: 15px;
+    }
+    header h1{
+        font-size: 15px;
+    }
+    #escolha{
+        padding:20px 50px;
+    }
+}
+@media screen and (max-device-width: 625px){
+    .menu-hamburguer{
+        width: 50px;
+    }
+    header{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-top: 5px;
+    }
+     header h1{
+        text-align: center;
+        margin-bottom: 6px;
+    } 
+    .section1, .section2, .section3, .section4{
+        width: 331px;
+        display: block;
+        min-height: 35vh;
+    }
+    #form2{
+        width: 80%;
+    }
+    #lampada, #lampada2{
+        margin: 0 auto;
+    }
+    .cantor{
+        width: 80px;
+        height: 80px;
+    }
+    /* .cantor{
+        display: none;
+    } */
+    #cadastro-section{
+    display: block;
+    width: 80%;
+   }
+   #cadastro-section h1{
+    font-size: 20px;
+   }
+   
+   #botao{
+    margin-top: 100px;
+   }
+}
+@media screen and (max-device-width:685px){
+    #button{
+        padding: 5px 10%;
+    }
+    #inputClick{
+        padding: 5px 10px;
+    }
+    #cadastro5{
+        font-size: 15px;
+    }
+    .section1, .section2, .section3, .section4{
+        width: 331px;
+        display: block;
+        min-height: 50vh;
+    }
+    .lista, .lista2, .lista3,.lista4{
+        width: 150px;
+        margin-left: 0;
+        margin: 0 auto;
+        margin-top: 40%;
+    }
+    
+}
+@media screen and (min-device-width:625px) and (max-device-width:685px){
+    .lista, .lista2, .lista3,.lista4{
+        margin-top: 25px;
+    }
+}
+@media screen and (max-device-width: 450px){
+    .section1, .section2, .section3, .section4{
+        height: 40vh;
+    }
+    main{
+        padding:50px 0;
+    }
+    header{
+        padding-left:10%;
+    }
+}
+@media screen and (max-device-width: 380px){
+    .section1, .section2, .section3, .section4{
+        height: 50vh;
+    }
+    #escolha{
+        padding: 20px 20px;
+    }
+
+}
+@media screen and (max-device-width: 440px){
+    .menu-hamburguer{
+        margin-left: 10px;
+    }
+}
+.nav-menu{
+    display: none;
+}
+#botao-mobile:active .nav-menu{
+    display: block;
+}
+.escolha{
+    margin: 0 auto;
+    padding: 20px 200px;
+    width: 100%;
+    height: 60vh;
+    min-height: 400px;
+    background-color: gray;
+    text-align: center;
+    display: none;
+}
+#textarea{
+    width: 100%;
+    padding: 10px;
+    font-size: 15px;
+    resize: none;
+    border-radius: 15px;
+    min-width: 200px;
+}
+#input-textarea{
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    background-color: orange;
+    margin-top: 10px;
+    width: 100%;
+    font-weight: bold;
+    color: white;
+}
+.adicionada{
+    display: flex;
+    background-color: white;
+    width: 100%;
+    height: 40px;
+    margin: 0 auto;
+    margin-top: 15px;
+    border-radius: 10px;
+    padding: 10px 20px;
+    background-color: aqua;
+    display: none;
+    font-size: 20px;
+}
+.adicionada .h2-1{
+   height: 5px;
+   color: crimson;
+   font-weight: bold;
+   cursor: pointer;
+   margin-top: 2px;
+   margin: 0 auto;
+}
+.adicionada .h2-2{
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+#btn-2:hover{
+    background-color: red;
+}
+#btn-1:hover{
+    background-color: green;
+}
+.textos{
+    width:700px;
+}
+.sim-nao{
+    margin-top: 10px;
+    text-align: center;
+    display: flex;
+    padding:0 30%;
+    display: none;
+}
+
