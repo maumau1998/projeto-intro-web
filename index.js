@@ -65,25 +65,25 @@ const musica_item =[
     /////////////////////////////////// Item com Objeto (SEGUNDA SEMANA)  ////////////////////////////
    console.log("SEGUNDA SEMANA")
  /*(1)*/let objeto1 = {
-       nome: "Jorge e Mateus",
+       nome: "JORGE E MATEUS",
        idades: [39, 36],
        maisDeCemMuscas: true,
     }
  
  /*(1)*/let objeto2 = {
-       nome: "Luan Santana",
+       nome: "LUAN SANTANA",
        idadeLuan: 31,
        maisDeCemMuscas: true,
     }
  
  /*(1)*/let objeto3 = {
-       nome: "Zé Neto e Cristiano",
+       nome: "ZÉ NETO E CRISTIANO",
        idades: [32, 31],
        maisDeCemMuscas: true,
     }
  
  /*(1)*/let objeto4 = {
-       nome: "João Gomes",
+       nome: "JOÃO GOMES",
        idadeJoao: 20,
        maisDeCemMuscas: false,
     }
