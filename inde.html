@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Listas de Cantores - Mauricio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="favicon.icon" href="./img/logo1.jpg"/>
+</head>
+<body>
+   <header>
+    <section id="h1Titulo">
+   <h1>
+    <a href="index.html" style="text-decoration:none ;">🎵 Listas de Cantores 🎵</a>
+  </h1></section>
+    <section id="EntrarCadatro">
+        <button id="btn-cadastro">Cadastrar</button>
+        <button id="btn-entrar" >Entrar</button>
+    </section>
+   </header>
+   <section class="desligar">
+   <div><img id="lampada" class="lampada" src="./img/lampada.png" alt=""></div>
+   <div><img id="lampada2" class="lampada" src="./img/lampada.png" alt=""></div></section>
+   <main id="main1">
+    <h3 id="cadastro" class="cadastro">⚠️ você precisa fazer o cadastro para utilizar o site !!!
+        <p id="p-msg" style="margin-top: 20px; color: grey;">😍 1 pesquisa por cadastro ( A página será recarregada para pesquisar novamente ) 😍</p>
+    </h3>
+    <div class="navegar" id="navegar">
+        <label for="button"></label>
+        <input type="text" name="button" id="button" placeholder="🔍 Pesquise aqui">
+        <button id="inputClick">Buscar</button>
+    </div>
+    <h3 id="cadastro5" class="cadastro" style="display: none; color: green">DICA: Jorge e Mateus já está com as músicas adicionadas</h3>
+    <section class="section1" id="lista1">
+       <div class="cantor">
+        <iframe id="iframe" src="https://www.youtube.com/embed/VTtE6VyBpBE" title="Jorge & Mateus  -  Lance Individual (Vídeo Oficial) [Álbum Tudo Em Paz]" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="width:280px ;height: 150px; border-radius: 5px;"></iframe>
+       </div>
+       <div class="lista" id="ul1">
+        <ul id="ul-cantor1">
+        
+        </ul>
+        </div>
+    </section>
+    <section class="section2" id="lista2">
+        <div class="cantor">
+            <iframe id="iframe2" src="https://www.youtube.com/embed/6c0LA4Nb1vY" title="Luan Santana - água com açúcar (DVD VIVA) [Vídeo Oficial]" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="width:280px ;height: 150px; border-radius: 5px;" ></iframe>
+        </div>
+        <div class="lista2" id="lista2">
+               <ul id="ul-cantor2">
+           
+                
+               </ul>
+            </div>
+    </section>
+    <section class="section3" id="lista3">
+        <div class="cantor">
+            <iframe id="iframe3" src="https://www.youtube.com/embed/jyFqlWOVOC0" title="Zé Neto e Cristiano - ELA E ELA - DVD Chaaama" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="width:280px ;height: 150px; border-radius: 5px;"></iframe>
+        </div>
+        <div class="lista3" id="lista3">
+            <ul id="ul-cantor3">
+          
+               
+               </ul>
+            </div>
+    </section>
+    <section class="section4" id="lista4">
+        <div class="cantor">
+            <iframe id="iframe4" src="https://www.youtube.com/embed/EesmnqfWsQo" title="MEU PEDAÇO DE PECADO - João Gomes - Tô Querendo te beijar de Novo (AUDIO E LETRA)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="width:280px ;height: 150px; border-radius: 5px;"></iframe>
+        </div>
+        <div class="lista4">
+            <ul id="ul-cantor4">
+            
+              
+               </ul>
+            </div>
+    </section>
+    <form class="form2" id="form2" action="#">
+        <button id="buttonResetarTabela">Resetar Tabela</button>
+        <table class="table1">
+            <tr>
+                <th class="i-th1"><p id="a1-jorge-t">Jorge e Mateus</p></th>
+                <th class="i-th2"><p id="a2-jorge-t">Clique nos Microfones ⬇️</p></th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td id="a1-jorge"><audio controls src="./musicas/ai ja era.mp3" id="audio"></audio><p onclick="micro()" class="microfone" id="microfone1">🎙️</p></td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td id="a1-jorge" class="td2"><audio controls src="./musicas/cheirosa.mp3" id="audio2"></audio><p onclick="micro2()" class="microfone" id="microfone2">🎙️</p></td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td id="a1-jorge"><audio controls src="./musicas/coisas de quem ama.mp3" id="audio3"></audio><p onclick="micro3()" class="microfone" id="microfone3">🎙️</p></td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td id="a1-jorge"><audio controls src="./musicas/fogueira.mp3" id="audio4"></audio><p onclick="micro4()" class="microfone" id="microfone4">🎙️</p></td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td id="a1-jorge"><audio controls src="./musicas/misterios.mp3" id="audio5"></audio><p onclick="micro5()" class="microfone" id="microfone5">🎙️</p></td>
+            </tr>
+            <tr>
+                <td>6</td>
+                <td id="a1-jorge"><audio controls src="./musicas/o que é que tem.mp3" id="audio6"></audio><p onclick="micro6()" class="microfone" id="microfone6">🎙️</p></td>
+            </tr>
+            <tr>
+                <td>7</td>
+                <td id="a1-jorge"><audio controls src="./musicas/pra ter o seu amor.mp3" id="audio7"></audio><p onclick="micro7()" class="microfone" id="microfone7">🎙️</p></td>
+            </tr>
+            <tr>
+                <td>8</td>
+                <td id="a1-jorge"><audio controls src="./musicas/propaganda.mp3" id="audio8"></audio><p onclick="micro8()" class="microfone" id="microfone8">🎙️</p></td>
+            </tr>
+            <tr>
+                <td>9</td>
+                <td id="a1-jorge"><audio controls src="./musicas/sosseguei.mp3" id="audio9"></audio><p onclick="micro9()" class="microfone" id="microfone9">🎙️</p></td>
+            </tr>
+            <tr>
+                <td>10</td>
+                <td id="a1-jorge"><audio controls src="./musicas/tijolao.mp3" id="audio10"></audio><p onclick="micro10()" class="microfone" id="microfone10">🎙️</p></td>
+            </tr>
+        </table>
+    </form>
+   </main>
+   <section id="escolha" class="escolha">
+    <span class="textos">
+       <textarea name="textarea" id="textarea" cols="30" rows="10" placeholder="Sugestões de Músicas (máximo de 20 caracteres)"></textarea><br>
+       <input id="input-textarea" type="submit" value="APLICAR">
+       <div class="adicionada" id="acicionada">
+       </div>
+       <div class="sim-nao" id="sim-nao">
+      <button id="btn-1"><p class="h2-2" id="h2-2">✅</p></button><button id="btn-2"><h3 class="h2-1" id="h2-1">X</h3></button></div>
+    </span>
+   </section>
+   <main id="main2">
+    <section id="cadastro-section">
+        <div id="cdt">
+         <h3 id="cadastro2" class="cadastro2">Todos os campos são obrigatórios !!!</h3></div>
+        <h1>Crie sua conta gratuita <button id="botao-sair">X</button></h1>
+        <form autocomplete="off" action="#">
+            <label class="label1" for="e-mail">E-mail</label><br>
+            <input class="input" type="text" name="e-mail" id="e-mail" placeholder="Digite seu e-mail" style="font-size: 16px;"><br>
+            <label class="label1" for="confirme-email">Nome de Usuário</label><br>
+            <input class="input" type="text" name="confirme-email" id="confirme-email" placeholder="Nome de Usuário" style="font-size: 16px;"><br>
+        </form>
+        <span  id="termo"><p>Ao seguir você concorda com os <a href="" class="a1">termos de privacidade</a> e <a href="" class="a2">termos de uso</a></p></span>
+        <button id="botao">Cadastrar</button>
+    </section>
+</main>
+   <footer><p>Criado com ❤️ por Mauricio.</p>
+    <a href="https://www.facebook.com/profile.php?id=100006678227225" target="_blank"><img src="./img/facebook.png" alt="imagem facebook"></a>
+    <a href="https://www.instagram.com/mauricio_mls_/" target="_blank"><img src="./img/instagram.png" alt="imagem instagram"></a>
+    <a href="https://www.linkedin.com/in/maur%C3%ADcio-leite-silva-aa375b16a/" target="_blank"><img src="./img/linkedin.png" alt="imagem linkedin"></a>
+    <a href="https://github.com/maumau1998" target="_blank"><img src="./img/github.png" alt="imagem github" style="width: 30px; height: 27px;"></a>
+</footer>
+<script src="index.js" render></script>
+</body>
+</html>
